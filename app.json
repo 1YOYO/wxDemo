@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/knit/knit",
+    "pages/life/life"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#A1D7F3",
+    "navigationBarTitleText": "一花一世界",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar":{
+    "color": "#6C90A3",
+    "selectedColor": "#fff",
+    "backgroundColor": "#A1D7F3",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/icon1.png",
+        "selectedIconPath": "pages/images/icon1.png"
+      },
+      {
+        "pagePath": "pages/life/life",
+        "text": "生活",
+        "iconPath": "pages/images/icon2.png",
+        "selectedIconPath": "pages/images/icon2.png"
+      },
+      {
+        "pagePath": "pages/knit/knit",
+        "text": "手工",
+        "iconPath": "pages/images/icon3.png",
+        "selectedIconPath": "pages/images/icon3.png"
+      }
+    ]
+  },
+  "debug": true
+}

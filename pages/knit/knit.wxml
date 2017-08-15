@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <text class="userinfo-nickname">手工编织模块开发中</text>
+  </view>
+</view>
