@@ -4,7 +4,7 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">
       <text class='nick-name'>亲爱的{{userInfo.nickName}},</text>
-      去发现生活中的美吧~~
+      去发现生活中的美吧！！~
     </text>
   </view>
   <!-- <view class="usermotto"> -->
