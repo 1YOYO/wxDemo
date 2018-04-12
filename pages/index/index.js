@@ -6,7 +6,7 @@ Page({
     motto: '欢迎 光临',
     userInfo: {},
     pictorHome: [
-      { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg' },
+      // { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg' },
       { url: 'http://img07.tooopen.com/images/20170306/tooopen_sy_200775896618.jpg' },
       { url: 'http://img02.tooopen.com/images/20160114/tooopen_sy_154351362557.jpg' },
       { url: 'http://img06.tooopen.com/images/20170325/tooopen_sy_203225356543.jpg' },

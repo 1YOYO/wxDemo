@@ -1,14 +1,13 @@
 {
   "pages":[
+    "pages/life/life",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/knit/knit",
-    "pages/life/life"
+    "pages/knit/knit"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#A1D7F3",
-    "navigationBarTitleText": "一花一世界",
+    "navigationBarTitleText": "生活百态",
     "navigationBarTextStyle":"#fff"
   },
   "tabBar":{
@@ -25,13 +24,13 @@
       },
       {
         "pagePath": "pages/life/life",
-        "text": "生活",
+        "text": "每日一笑",
         "iconPath": "pages/images/icon2.png",
         "selectedIconPath": "pages/images/icon2.png"
       },
       {
         "pagePath": "pages/knit/knit",
-        "text": "手工",
+        "text": "星座运势",
         "iconPath": "pages/images/icon3.png",
         "selectedIconPath": "pages/images/icon3.png"
       }

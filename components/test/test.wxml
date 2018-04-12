@@ -1,0 +1,6 @@
+<template name='test'>
+  <view>我是模板</view>
+  <block wx:for='{{test}}' wx:key='index'>
+    <view class='test-c' bind:touchmove='touchmoves'>{{index}} {{item.name}} {{item.value}}</view>
+  </block>
+</template>

@@ -1,9 +1,0 @@
-<!--logs.wxml-->
-<view class="container log-list">
-  <view class="title {{num==1?'hinge':''}}" bindtap="bindCd">彩蛋！</view> 
-  <view class="imgs {{num==2?'hover': ''}}" bindtap="bindHover">
-    <block wx:for="{{imageurl}}">
-      <image src="{{item.url}}"></image>
-    </block>
-  </view>
-</view>

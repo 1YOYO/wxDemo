@@ -1,0 +1,6 @@
+.test-c{
+ color: red;
+ display: inline-block;
+ border-right: 1px solid burlywood;
+ padding-right: 5px;
+}
