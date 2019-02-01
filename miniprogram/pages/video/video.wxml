@@ -1,0 +1,10 @@
+<view class='containers bounceInRight'>
+	<view class='videoPlay'>
+	  <video src="{{cctvSrc}}" autoplay='true'></video>
+  </view>
+  <view class='list-video'>
+  	<block wx:for='{{srcList}}' wx:key='{{item}}'>
+	  	<text data-src='{{item.src}}' data-index='{{index}}' bindtap='playVideo' class='{{index == activeIndex ? "active": ""}}'>{{item.name}}</text>
+  	</block>
+  </view>
+</view>

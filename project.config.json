@@ -1,14 +1,16 @@
 {
 	"description": "项目配置文件。",
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "qcloud/",
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true
 	},
-	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
+	"libVersion": "2.4.3",
 	"appid": "wx7cf7c757f0aee334",
 	"projectname": "wxProject",
 	"isGameTourist": false,

@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/video/video",
+    "pages/add/add",
+    "pages/pic/pic"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#A1D7F3",
+    "navigationBarTitleText": "流水",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar":{
+    "color": "#515151",
+    "selectedColor": "#464646",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/detail/detail",
+        "text": "流水",
+        "iconPath": "pages/images/detail.png",
+        "selectedIconPath": "pages/images/detail1.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "账单",
+        "iconPath": "pages/images/order.png",
+        "selectedIconPath": "pages/images/order1.png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "记账",
+        "iconPath": "pages/images/add.png",
+        "selectedIconPath": "pages/images/add1.png"
+      },
+      {
+        "pagePath": "pages/pic/pic",
+        "text": "统计",
+        "iconPath": "pages/images/pic.png",
+        "selectedIconPath": "pages/images/pic1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/images/my.png",
+        "selectedIconPath": "pages/images/my3.png"
+      }
+    ]
+  },
+  "debug": true
+}

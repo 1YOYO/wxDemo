@@ -1,0 +1,94 @@
+.my {
+
+}
+.my .header{
+	width: 100%;
+	height: 460rpx;
+	position: relative;
+}
+.my .header image{
+	width: 100%;
+	height: 460rpx;
+}
+.my .header-mb{
+  width: 100%;
+	height: 460rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(50deg, #2FE7D5, #3698DE, #4A50E8);
+	opacity: 0.8;
+}
+.my .header-main{
+	position: absolute;
+	top: 200rpx;
+	left: -45%;
+	margin-left: 50%;
+	width: 90%;
+	height: 340rpx;
+	background: #fff;
+	box-shadow: 0px 6rpx 6rpx rgba(0,0,0,0.1);
+	border-radius: 10rpx;
+	opacity: 0.96;
+}
+.my .header-img{
+	width: 220rpx;
+	height: 220rpx;
+	border-radius: 50%;
+	position: absolute;
+	top: -110rpx;
+	left: 50%;
+	margin-left: -110rpx;
+	box-shadow: 0rpx 8rpx 18rpx 10rpx rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+.my .header-name{
+	/*border:1px solid red;*/
+	margin-top: 140rpx;
+	text-align: center;
+	font-size: 38rpx;
+	color: #4A4A4A;
+}
+.my .record{
+	/*border: 1px solid red;*/
+	color: #A5A7A6;
+	text-align: center;
+	font-size: 34rpx;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 20rpx auto;
+}
+.my .record .font{
+  background: linear-gradient(to right, #2FE7D5, #3698DE, #4A50E8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  vertical-align: middle;
+}
+
+.my .task-list{
+	/*border: 1px solid red;*/
+	background: #fff;
+	width: 100%;
+	margin: 110rpx auto;
+	border-radius: 6rpx;
+	font-size: 36rpx;
+}
+.my .task-list .font{
+  margin-right: 30rpx;
+  vertical-align: middle;
+}
+.my .task-list .task-list-item{
+	/*width: 100%;*/
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 2px solid #F7F7F7;
+	padding: 0 40rpx;
+}
+.my .right-arrow{
+	float: right;
+	font-size: 48rpx;
+	color: #A5A7A6;
+}

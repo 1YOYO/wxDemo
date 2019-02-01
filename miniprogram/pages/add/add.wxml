@@ -1,0 +1,6 @@
+<!--pages/add/add.wxml-->
+<view class='container my'>
+	<view class='header'>
+		<view></view>
+	</view>
+</view>
